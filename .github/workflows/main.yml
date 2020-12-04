@@ -7,7 +7,7 @@ jobs:
     steps:
     - name: Hello world action step
       id: hello
-      uses: matsumonkie/Mimizuku@v0.1
+      uses: matsumonkie/Mimizuku
       with:
         who-to-greet: 'io riiii'
     # Use the output from the `hello` step
