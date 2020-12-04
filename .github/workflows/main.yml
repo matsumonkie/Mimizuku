@@ -7,7 +7,7 @@ jobs:
     steps:
     - name: Hello world action step
       id: hello
-      uses: matsumonkie/Mimizuku@3f3aac4e4b66d436a66810349588e8d1a9d5c9b8
+      uses: matsumonkie/izuna-action@6cda7ff356d87a9657ace0547a8a39a3dbe79130
       with:
         who-to-greet: 'io riiii'
     # Use the output from the `hello` step
